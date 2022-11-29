@@ -1,22 +1,5 @@
-def num(n):
-    c=0
-    x=n
-    r=0
-    z=0
-    s=0
-    while(n>0):
-        c+=1
-        if c==1:
-            r=n%10
-            s=s+r
-            n=n//10
-            break
-    while(c>0):
-        r=n%10
-        z=z+r
-        n=n//10
-        if n<10:
-            break
-    return 'The 1st and last digits are ',n,' and ',s
+def num(arg1):
+    num1 = list(str(arg1))
+    return "The 1st and last digits are ",int(num1[0])," and ",int(num1[len(num1)-1])
 n=int(input())
 print(num(n))
