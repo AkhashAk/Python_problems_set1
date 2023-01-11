@@ -6,7 +6,6 @@ def strong_num(n):
         r=n%10
         while(x<=r):
             f*=x
-
             x+=1
         s=s+f
         n//=10

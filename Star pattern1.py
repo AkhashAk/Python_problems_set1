@@ -1,5 +1,5 @@
 def pat1(n):
-    k=n*2-2
+    k=n-1
     for i in range(0,n):
         for j in range(0,k):
             print(' ',end='')
